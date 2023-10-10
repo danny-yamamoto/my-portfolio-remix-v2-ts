@@ -1,0 +1,23 @@
+body {
+    padding: 1em 2em;
+    background: linear-gradient(83.21deg,#3245ff 0%,#bc52ee 100%);
+    color: white;
+    height: 100vh;
+}
+
+#articles {
+    background-color: rgba(29, 32, 35, 1);
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    width: min-content;
+}
+
+#articles a {
+    text-decoration: none;
+}
