@@ -7,7 +7,8 @@ export default function PortfolioRoute() {
         <header><h1>Welcome to my portfolio</h1></header>
         <div className="flex-container">
             <div className="flex-item">
-                <h2 id="articles"><Link className="fa-inverse" id="article" to={`/portfolio/1`}>Articles</Link></h2>
+                <h2 id="articles"><Link className="fa-inverse contents-button" id="articles" to={`/portfolio/articles`}>Articles</Link></h2>
+                <h2 id="experience"><Link className="fa-inverse contents-button" id="experience" to={`/portfolio/experience`}>Experience</Link></h2>
             </div>
             <div className="flex-item">
                 <Outlet />

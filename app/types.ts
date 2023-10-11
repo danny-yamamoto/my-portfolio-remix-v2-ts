@@ -1,3 +1,9 @@
+export type Experience = {
+    id: string;
+    company: string;
+    position: string;
+}
+
 export type IArticles = {
     title: string;
     url: string;
