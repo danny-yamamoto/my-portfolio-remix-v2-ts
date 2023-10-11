@@ -21,3 +21,12 @@ body {
 #articles a {
     text-decoration: none;
 }
+
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    margin: 10px;
+    padding: 10px;
+}

@@ -11,7 +11,6 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <div>
-      <header><h1 className="fa-inverse">Welcome to Remix</h1></header>
       <div id="container">
         <div id="sidebar">
         </div>
