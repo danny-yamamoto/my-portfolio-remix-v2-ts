@@ -1,4 +1,4 @@
 // Outlet is here.
 export default function PortfolioIndexRoute() {
-  return <div>Please select a client</div>;
+  return <div className="contents-route">Please select a contents</div>;
 }
