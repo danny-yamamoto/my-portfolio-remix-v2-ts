@@ -30,12 +30,12 @@ export default function PortfolioIdRoute() {
       <article>
         <ul>
             {data.displayArticles && data.displayArticles.map(({ title, url, id }) => (
-            <li key={id}>
+            <li key={id} className="truncate-list-item">
                 <Link key={id} to={url} target="_blank">{title}</Link>
             </li>
             ))}
             {data.displayExperience && data.displayExperience.map(({ id, company, position }) => (
-            <li key={id}>{id}: {position} @ {company}</li>
+            <li key={id} className="truncate-list-item">{id}: {position} @ {company}</li>
             ))}
         </ul>
       </article>

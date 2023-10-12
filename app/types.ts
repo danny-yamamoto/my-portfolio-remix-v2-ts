@@ -10,6 +10,11 @@ export type IArticles = {
     id: string;
 };
 
+export type Certificates = {
+    blockchainId: string;
+    title: string;
+}
+
 export type CombinedJson = {
     myname: string;
     githubProfile: string;
