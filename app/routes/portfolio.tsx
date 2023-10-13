@@ -1,4 +1,5 @@
 import { Link, Outlet } from "@remix-run/react";
+import { Footer } from "~/components/Footer";
 
 // route is here.
 export default function PortfolioRoute() {
@@ -18,6 +19,7 @@ export default function PortfolioRoute() {
         <div className="flex-item">
           <Outlet />
         </div>
+        <Footer titile="Daisuke Yamamoto" twitter="" github=""/>
       </div>
     </div>
   );
