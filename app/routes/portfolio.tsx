@@ -19,8 +19,8 @@ export default function PortfolioRoute() {
         <div className="flex-item">
           <Outlet />
         </div>
-        <Footer titile="Daisuke Yamamoto" twitter="" github=""/>
       </div>
+      <Footer titile="Daisuke Yamamoto" twitter="" github=""/>
     </div>
   );
 }
